@@ -1,188 +1,184 @@
 body{
-
 font-family:Poppins;
 margin:0;
-background:#f9fbfc;
+background:#f5f9fc;
+color:#333;
 }
 
 .navbar{
-
 display:flex;
 justify-content:space-between;
 align-items:center;
 padding:15px 40px;
 background:white;
-box-shadow:0 2px 10px rgba(0,0,0,0.1);
+box-shadow:0 2px 10px rgba(0,0,0,0.08);
 position:sticky;
 top:0;
+}
 
+.logo-section{
+display:flex;
+align-items:center;
+gap:10px;
 }
 
 .logo{
-
-color:#0b6ef3;
-
+width:40px;
 }
 
 .nav-links{
-
-list-style:none;
 display:flex;
-gap:20px;
-
+gap:25px;
+list-style:none;
 }
 
 .nav-links a{
-
 text-decoration:none;
 color:#333;
-
+font-weight:500;
 }
 
 .call-btn{
-
-background:#0b6ef3;
+background:#2f80ed;
 color:white;
-padding:10px 15px;
+padding:10px 16px;
 border-radius:6px;
 text-decoration:none;
-
 }
 
 .hero{
-
 height:80vh;
 display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
-background:linear-gradient(120deg,#e3f2fd,#e8f5e9);
-
+background:linear-gradient(135deg,#e8f4ff,#e9fbe9);
 }
 
 .hero h1{
-
-font-size:40px;
-
+font-size:42px;
+color:#2f80ed;
 }
 
 .btn-primary{
-
-background:#0b6ef3;
+background:#2f80ed;
 color:white;
-padding:12px 20px;
+padding:12px 22px;
 border-radius:8px;
-margin-right:10px;
 text-decoration:none;
-
+margin-right:10px;
 }
 
 .btn-secondary{
-
-border:2px solid #0b6ef3;
+border:2px solid #2f80ed;
 padding:10px 20px;
 border-radius:8px;
 text-decoration:none;
-
+color:#2f80ed;
 }
 
 .services{
-
-padding:60px;
+padding:70px 40px;
 text-align:center;
-
 }
 
 .service-grid{
-
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:20px;
-
+gap:25px;
+margin-top:30px;
 }
 
-.card{
-
+.service-card{
 background:white;
 padding:30px;
-border-radius:10px;
-box-shadow:0 3px 10px rgba(0,0,0,0.1);
+border-radius:12px;
+box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
 
+.service-card i{
+font-size:30px;
+color:#2f80ed;
+margin-bottom:10px;
 }
 
 .doctor{
-
 text-align:center;
 padding:60px;
-
 }
 
 .doctor img{
-
 width:200px;
 border-radius:100%;
+}
 
+.testimonials{
+background:#f1f7ff;
+padding:60px;
+text-align:center;
+}
+
+.reviews{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.review{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+width:250px;
 }
 
 .appointment{
-
 padding:60px;
 text-align:center;
-
 }
 
 form{
-
 display:flex;
 flex-direction:column;
+gap:12px;
 max-width:400px;
 margin:auto;
-gap:10px;
-
 }
 
 input,textarea{
-
 padding:10px;
 border-radius:6px;
 border:1px solid #ddd;
-
 }
 
 button{
-
-background:#0b6ef3;
+background:#2f80ed;
 color:white;
 border:none;
 padding:12px;
-
+border-radius:6px;
 }
 
 .contact{
-
-text-align:center;
 padding:60px;
-
+text-align:center;
 }
 
 .whatsapp{
-
 position:fixed;
 bottom:20px;
 right:20px;
 background:#25D366;
 color:white;
-padding:12px 18px;
-border-radius:30px;
-text-decoration:none;
-
+padding:14px;
+border-radius:50%;
+font-size:22px;
 }
 
 footer{
-
 background:#111;
 color:white;
 text-align:center;
 padding:20px;
-
 }

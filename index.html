@@ -7,12 +7,13 @@
 
 <title>Bright Smile Dental Clinic</title>
 
-<meta name="description" content="Bright Smile Dental Clinic provides professional dental care including implants, braces, whitening and family dentistry.">
+<meta name="description" content="Bright Smile Dental Clinic provides expert dental care for families including implants, braces and teeth whitening.">
 
 <link rel="stylesheet" href="style.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/7a4b62b0a4.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -24,7 +25,13 @@
 
 <nav class="navbar">
 
-<h2 class="logo">Bright Smile</h2>
+<div class="logo-section">
+
+<img src="images/logo.png" class="logo">
+
+<h2>Bright Smile Dental</h2>
+
+</div>
 
 <ul class="nav-links">
 
@@ -41,7 +48,7 @@
 
 </header>
 
-<!-- HERO SECTION -->
+<!-- HERO -->
 
 <section class="hero">
 
@@ -54,6 +61,7 @@
 <div class="hero-buttons">
 
 <a href="#appointment" class="btn-primary">Book Appointment</a>
+
 <a href="tel:+919999999999" class="btn-secondary">Call Now</a>
 
 </div>
@@ -70,12 +78,12 @@
 
 <p>
 
-Bright Smile Dental Clinic provides advanced dental treatments with a patient-first approach.
-Our experienced dentists ensure comfortable and high-quality dental care for individuals and families.
+Bright Smile Dental Clinic provides advanced dental care with modern equipment and experienced dentists.  
+We ensure comfortable and safe treatment for children and adults.
 
 </p>
 
-<div class="about-stats">
+<div class="stats">
 
 <div>
 <h3>10+</h3>
@@ -84,12 +92,12 @@ Our experienced dentists ensure comfortable and high-quality dental care for ind
 
 <div>
 <h3>5000+</h3>
-<p>Happy Patients</p>
+<p>Patients Treated</p>
 </div>
 
 <div>
-<h3>100%</h3>
-<p>Patient Care</p>
+<h3>24/7</h3>
+<p>Emergency Care</p>
 </div>
 
 </div>
@@ -100,16 +108,39 @@ Our experienced dentists ensure comfortable and high-quality dental care for ind
 
 <section id="services" class="services">
 
-<h2>Our Services</h2>
+<h2>Our Dental Services</h2>
 
 <div class="service-grid">
 
-<div class="card">Teeth Cleaning</div>
-<div class="card">Root Canal Treatment</div>
-<div class="card">Dental Implants</div>
-<div class="card">Teeth Whitening</div>
-<div class="card">Braces & Aligners</div>
-<div class="card">Pediatric Dentistry</div>
+<div class="service-card">
+<i class="fa-solid fa-tooth"></i>
+<h3>Teeth Cleaning</h3>
+</div>
+
+<div class="service-card">
+<i class="fa-solid fa-teeth-open"></i>
+<h3>Root Canal</h3>
+</div>
+
+<div class="service-card">
+<i class="fa-solid fa-screwdriver-wrench"></i>
+<h3>Dental Implants</h3>
+</div>
+
+<div class="service-card">
+<i class="fa-solid fa-star"></i>
+<h3>Teeth Whitening</h3>
+</div>
+
+<div class="service-card">
+<i class="fa-solid fa-teeth"></i>
+<h3>Braces & Aligners</h3>
+</div>
+
+<div class="service-card">
+<i class="fa-solid fa-child"></i>
+<h3>Pediatric Dentistry</h3>
+</div>
 
 </div>
 
@@ -119,7 +150,7 @@ Our experienced dentists ensure comfortable and high-quality dental care for ind
 
 <section id="doctor" class="doctor">
 
-<h2>Meet Our Doctor</h2>
+<h2>Meet Our Dentist</h2>
 
 <div class="doctor-card">
 
@@ -127,7 +158,7 @@ Our experienced dentists ensure comfortable and high-quality dental care for ind
 
 <h3>Dr. Rajesh Kumar</h3>
 
-<p>BDS, MDS (Dental Surgery)</p>
+<p>BDS, MDS – Dental Surgeon</p>
 
 <p>12+ Years Experience</p>
 
@@ -135,48 +166,31 @@ Our experienced dentists ensure comfortable and high-quality dental care for ind
 
 </section>
 
-<!-- WHY CHOOSE US -->
-
-<section class="why">
-
-<h2>Why Choose Us</h2>
-
-<div class="why-grid">
-
-<div>Experienced Dentists</div>
-<div>Modern Equipment</div>
-<div>Affordable Treatment</div>
-<div>Friendly Staff</div>
-<div>Emergency Care</div>
-
-</div>
-
-</section>
-
-<!-- TESTIMONIALS -->
+<!-- TESTIMONIAL -->
 
 <section class="testimonials">
 
-<h2>Patient Testimonials</h2>
+<h2>What Our Patients Say</h2>
+
+<div class="reviews">
 
 <div class="review">
-
-<p>"Very professional clinic and friendly staff."</p>
+⭐ ⭐ ⭐ ⭐ ⭐
+<p>"Excellent dental service and friendly staff."</p>
 <h4>- Rahul</h4>
-
 </div>
 
 <div class="review">
-
-<p>"Best dental treatment experience I ever had."</p>
+⭐ ⭐ ⭐ ⭐ ⭐
+<p>"Very clean clinic and painless treatment."</p>
 <h4>- Sneha</h4>
-
 </div>
 
 <div class="review">
-
-<p>"Doctor explained everything clearly and treatment was painless."</p>
+⭐ ⭐ ⭐ ⭐ ⭐
+<p>"Highly recommend for dental implants."</p>
 <h4>- Amit</h4>
+</div>
 
 </div>
 
@@ -191,9 +205,12 @@ Our experienced dentists ensure comfortable and high-quality dental care for ind
 <form>
 
 <input type="text" placeholder="Name" required>
+
 <input type="tel" placeholder="Phone" required>
+
 <input type="email" placeholder="Email">
-<input type="date" required>
+
+<input type="date">
 
 <textarea placeholder="Message"></textarea>
 
@@ -209,21 +226,24 @@ Our experienced dentists ensure comfortable and high-quality dental care for ind
 
 <h2>Contact Us</h2>
 
-<p>📍 Bangalore, India</p>
-<p>📞 +91 9999999999</p>
-<p>✉ info@brightsmile.com</p>
+<p><i class="fa-solid fa-location-dot"></i> Bangalore, India</p>
+
+<p><i class="fa-solid fa-phone"></i> +91 9999999999</p>
+
+<p><i class="fa-solid fa-envelope"></i> info@brightsmile.com</p>
 
 <iframe
 src="https://maps.google.com/maps?q=bangalore&t=&z=13&ie=UTF8&iwloc=&output=embed"
-width="100%"
-height="300">
+width="100%" height="300">
 </iframe>
 
 </section>
 
-<!-- WHATSAPP BUTTON -->
+<!-- WHATSAPP -->
 
-<a href="https://wa.me/919999999999" class="whatsapp">WhatsApp</a>
+<a href="https://wa.me/919999999999" class="whatsapp">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
 
 <!-- FOOTER -->
 
